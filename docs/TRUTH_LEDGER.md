@@ -1,0 +1,3 @@
+# Truth Ledger
+
+GLOBAL_OPEN_PROBLEM_CLAIMS: FALSE

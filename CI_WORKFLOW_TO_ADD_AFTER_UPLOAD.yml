@@ -1,0 +1,26 @@
+name: AXEZENT AI Atlas Continuous Verification
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install package and test tools
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e . pytest
+      - name: Run atlas tests
+        run: |
+          pytest -q
+      - name: Run atlas audit
+        run: |
+          python -m axezent_ai_verified_math.run_audit

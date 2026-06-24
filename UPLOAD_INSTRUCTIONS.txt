@@ -1,0 +1,23 @@
+Repository name:
+AXEZENT-AI-Verified-Mathematics-Atlas
+
+Description:
+Axezent AI master index for truth-labeled verified mathematics artifacts, receipts, tests, Lean gates, and no-overclaim proof-audit ledgers.
+
+Main upload commit summary:
+feat: initialize Axezent AI verified mathematics atlas
+
+Main upload extended description:
+Initial public master atlas for Axezent AI verified mathematics artifacts. Includes module index, truth ledger, claims/nonclaims, logo, upload order, and audit-first repository structure.
+
+After main upload, create this file manually in GitHub:
+.github/workflows/ci.yml
+
+Copy contents from:
+CI_WORKFLOW_TO_ADD_AFTER_UPLOAD.yml
+
+CI commit summary:
+ci: add verification workflow
+
+CI extended description:
+Adds GitHub Actions workflow to install the package and run verification tests on push and pull request.
