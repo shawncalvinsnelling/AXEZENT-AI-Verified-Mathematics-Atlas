@@ -1,11 +1,6 @@
 name: Deploy AXEZENT site to GitHub Pages
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "commercial/axezent-commercial-suite/site/**"
-      - ".github/workflows/deploy-axezent-pages.yml"
   workflow_dispatch:
 
 permissions:
@@ -29,8 +24,6 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
