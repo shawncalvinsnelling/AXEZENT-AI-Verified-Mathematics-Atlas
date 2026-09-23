@@ -1,55 +1,51 @@
-# AXEZENT Launch Pricing
+# AXEZENT Pricing
 
-**Payment destination:** Cash App **$axezent**
+All prices are in U.S. dollars. Some products are currently offered in Preview; customers are charged only for services that have been activated for their account.
 
-These prices are launch hypotheses for pre-production commercial products. They are not representations of existing revenue, market validation, or guaranteed service availability. Production sales require the applicable product to be operational, tested, and covered by an executed customer agreement.
+## Platform plans
 
-## Portfolio bundles
-
-| Plan | Launch price | Intended use |
+| Plan | Price | Includes |
 |---|---:|---|
-| Evaluation | Free / limited | Demonstrations, limited checks, public theorem verification |
-| AXEZENT Researcher Pro | **$199/month** | Individual researchers needing a broad analysis/certificate toolset |
-| AXEZENT Lab | **$999/month** | Research groups needing Verification Cloud, formalization, audit receipts, and higher limits |
-| AXEZENT Discovery Pro | **$2,500/month** | Controlled access to private discovery computation; no transfer of the private engine |
-| Enterprise | **Starting at $25,000/year** | Organizations requiring seats, API limits, support, procurement terms, or private deployment |
-| OEM / Field-of-Use | Custom contract | Embedded/API licensing with negotiated scope, volume, support, and IP boundaries |
+| **Evaluation** | Free | Limited demonstrations, public theorem checks, selected previews |
+| **Researcher Pro** | **$199/month** | Core analysis, verification, certificate, and research tools |
+| **Lab** | **$999/month** | Team access, higher verification limits, formalization workflows, and audit receipts |
+| **Discovery Pro** | **$2,500/month** | Controlled access to advanced private discovery computation |
+| **Enterprise** | **From $25,000/year** | Organization licensing, API capacity, support, negotiated deployment and procurement terms |
+| **OEM / Field-of-Use** | Custom | Embedded services, high-volume API access, specialized licensing |
 
-## A-Z product launch prices
+## Individual products
 
-| ID | Product | Launch price |
-|---|---|---:|
-| A | AHR Explorer Pro | $29/month |
-| B | Boundless Six-Cycle Certifier | $19/month |
-| C | Coefficient Formula Compiler | $99/month |
-| D | Discovery Engine Client | $499/month researcher; $2,500+/month lab |
-| E | Exact Proof API | $99/month + usage |
-| F | Formalization Factory | $199/month |
-| G | Generating-Function Analyzer | $79/month |
-| H | Hook Multiplicity Database | $29/month |
-| I | Insertion Theorem Engine | $149/month |
-| J | Journal Proof Auditor | $199/report or $299/month |
-| K | Conjecture Knowledge Graph | $49/month |
-| L | Log-Concavity Certificate Generator | $99/month |
-| M | CAS Plugin Pack | $39/month |
-| N | Novelty Scanner | $79/report or $149/month |
-| O | Open-Problem Attack Console | $299/month |
-| P | PF2 Total Positivity Engine | $79/month |
-| Q | Proof QA System | $149/month |
-| R | Representation Theory Workbench | $99/month |
-| S | Sage GAP Bridge | $29/month |
-| T | Theorem-to-Certificate Compiler | $249/month |
-| U | Unimodality Laboratory | $79/month |
-| V | Verification Cloud | $199/month researcher; $999+/month lab |
-| W | Research Training Studio | $20/month individual; institution custom |
-| X | Experimental Mathematics Benchmark | $99/month; enterprise API custom |
-| Y | Yielded-Theorem Registry | $19/month |
-| Z | Zero-Placeholder Research OS Client | $999/month individual; $5,000-$25,000+/month enterprise |
+| Product | Price |
+|---|---:|
+| AHR Explorer Pro | $29/month |
+| Boundless Six-Cycle Certifier | $19/month |
+| Coefficient Formula Compiler | $99/month |
+| Discovery Engine | $499/month individual; $2,500+/month lab |
+| Exact Proof API | $99/month + usage |
+| Formalization Factory | $199/month |
+| Generating-Function Analyzer | $79/month |
+| Hook Multiplicity Database | $29/month |
+| Insertion Theorem Engine | $149/month |
+| Journal Proof Auditor | $199/report or $299/month |
+| Conjecture Knowledge Graph | $49/month |
+| Log-Concavity Certificate Generator | $99/month |
+| CAS Plugin Pack | $39/month |
+| Novelty Scanner | $79/report or $149/month |
+| Open-Problem Attack Console | $299/month |
+| PF2 Total Positivity Engine | $79/month |
+| Proof QA System | $149/month |
+| Representation Theory Workbench | $99/month |
+| Sage/GAP Bridge | $29/month |
+| Theorem-to-Certificate Compiler | $249/month |
+| Unimodality Laboratory | $79/month |
+| Verification Cloud | $199/month individual; $999+/month lab |
+| Research Training Studio | $20/month individual; institutional pricing available |
+| Experimental Mathematics Benchmark | $99/month; enterprise API pricing available |
+| Yielded-Theorem Registry | $19/month |
+| Zero-Placeholder Research OS | $999/month individual; enterprise pricing available |
 
-## Payment and activation
+## Licensing
 
-Payment alone is not an entitlement. Access begins only after AXEZENT records a verified payment and issues or extends an entitlement. Premium services should independently enforce access server-side.
+Subscriptions provide access to the applicable AXEZENT service. They do not transfer ownership of AXEZENT software, proprietary methods, source code not expressly licensed, or other background intellectual property.
 
-## No transfer of core technology
-
-Subscription fees purchase access rights only. They do not transfer ownership of AXEZENT background IP, private discovery logic, unpublished inventions, source code not expressly licensed, or patent rights.
+For organizational purchasing, volume access, OEM use, private deployment, or field-of-use licensing, see [AXEZENT Enterprise](./ENTERPRISE.md).
