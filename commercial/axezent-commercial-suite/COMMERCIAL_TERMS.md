@@ -1,9 +1,25 @@
-# AXEZENT Commercial Source-Available Terms
+# AXEZENT Commercial Terms Summary
 
-Copyright (c) 2026 Shawn Calvin Snelling. All rights reserved.
+Copyright © 2026 Shawn Calvin Snelling / AXEZENT. All rights reserved.
 
-These commercial-suite files are made public for inspection, interoperability, testing, and evaluation. No license is granted for resale, commercial hosting, paid redistribution, circumvention of entitlement checks, or use of private AXEZENT services without an active commercial entitlement.
+This repository does not grant a commercial license to AXEZENT paid services or proprietary technology.
 
-Public mathematical papers and third-party dependencies remain governed by their own terms.
+## Subscription access
 
-This is a product-policy placeholder, not legal advice. A final customer license agreement should be reviewed by qualified counsel before commercial launch.
+Paid customers receive a limited, non-transferable right to use the AXEZENT services and features included in their active plan or order.
+
+## Ownership
+
+AXEZENT retains ownership of its software, proprietary technology, service infrastructure, research systems, and other background intellectual property except where a signed agreement expressly states otherwise.
+
+## Restrictions
+
+Unless expressly authorized in writing, customers may not resell AXEZENT service access, operate a competing hosted service using AXEZENT proprietary services, bypass entitlement controls, or represent AXEZENT technology as their own.
+
+## Public research
+
+Public mathematical papers, public datasets, and third-party dependencies may carry separate terms. Those terms control their respective materials.
+
+## Enterprise agreements
+
+Organization, OEM, field-of-use, private-deployment, and custom-service rights are governed by the applicable written agreement or order form.
