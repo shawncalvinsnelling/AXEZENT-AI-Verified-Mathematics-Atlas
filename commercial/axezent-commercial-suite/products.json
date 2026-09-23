@@ -4,390 +4,388 @@
     "name": "AHR Explorer Pro",
     "productId": "ahr-explorer-pro",
     "description": "Analyze hook-multiplicity polynomials, theorem coverage, unimodality, support, and exact certificates.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "B",
     "name": "Boundless Six-Cycle Certifier",
     "productId": "six-cycle-certifier",
     "description": "Certify the published all-s six-cycle theorem and return exact machine-readable receipts.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 19
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "C",
     "name": "Coefficient Formula Compiler",
     "productId": "coefficient-formula-compiler",
     "description": "Convert supported rational generating functions into exact piecewise coefficient formulas and recurrences.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "D",
     "name": "Discovery Engine Client",
     "productId": "discovery-engine-client",
     "description": "Paid client for the private AXEZENT theorem-discovery backend. Private search/scoring logic is not published.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 499,
       "labMonthlyUsd": 2500
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "E",
     "name": "Exact Proof API",
     "productId": "exact-proof-api",
     "description": "Serve exact theorem checks and verification receipts through a paid API.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 99,
       "usageBased": true
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "F",
     "name": "Formalization Factory",
     "productId": "formalization-factory",
     "description": "Turn mathematical proof outlines into typed proof obligations and formalization work queues.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 199
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "G",
     "name": "Generating-Function Analyzer",
     "productId": "generating-function-analyzer",
     "description": "Analyze rational generating functions, coefficient structure, positivity, support, and recurrences.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "H",
     "name": "Hook Multiplicity Database",
     "productId": "hook-multiplicity-database",
     "description": "Search hook-multiplicity data, theorem status, exact formulas, and verification artifacts.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "I",
     "name": "Insertion Theorem Engine",
     "productId": "insertion-theorem-engine",
     "description": "Test and certify property-preserving insertion rules for parameterized combinatorial families.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 149
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "J",
     "name": "Journal Proof Auditor",
     "productId": "journal-proof-auditor",
     "description": "Run reproducibility, boundary-case, formula-consistency, and certificate audits for manuscripts.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "perReportUsd": 199,
       "monthlyUsd": 299
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "K",
     "name": "Conjecture Knowledge Graph",
     "productId": "conjecture-knowledge-graph",
     "description": "Map conjectures to subfamilies, lemmas, counterexamples, certificates, and literature links.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 49
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "L",
     "name": "Log-Concavity Certificate Generator",
     "productId": "log-concavity-certificates",
     "description": "Search for exact positive-polynomial certificates proving log-concavity or exposing failures.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "M",
     "name": "CAS Plugin Pack",
     "productId": "cas-plugin-pack",
     "description": "Provide paid connectors from symbolic-algebra systems to AXEZENT verification APIs.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 39
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "N",
     "name": "Novelty Scanner",
     "productId": "novelty-scanner",
     "description": "Compare theorem candidates against indexed literature and maintain an evidence-backed novelty ledger.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "perReportUsd": 79,
       "monthlyUsd": 149
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "O",
     "name": "Open-Problem Attack Console",
     "productId": "open-problem-console",
     "description": "Manage scoped open-problem targets, proof obligations, counterexamples, and surviving branches.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 299
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "P",
     "name": "PF2 Total Positivity Engine",
     "productId": "pf2-total-positivity",
     "description": "Check PF2/log-concavity conditions and convolution-preservation certificates.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "Q",
     "name": "Proof QA System",
     "productId": "proof-qa-system",
     "description": "Adversarially test proofs for hidden assumptions, edge cases, circularity, and false promotion.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 149
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "R",
     "name": "Representation Theory Workbench",
     "productId": "representation-theory-workbench",
     "description": "Higher-Lie, symmetric-group, partition, and hook-multiplicity research interface.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "S",
     "name": "Sage GAP Bridge",
     "productId": "sage-gap-bridge",
     "description": "Bridge external algebra systems to the paid verification/certificate service.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "T",
     "name": "Theorem-to-Certificate Compiler",
     "productId": "theorem-certificate-compiler",
     "description": "Compile supported theorem claims into exact reproducible certificates and audit receipts.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 249
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "U",
     "name": "Unimodality Laboratory",
     "productId": "unimodality-lab",
     "description": "Analyze and certify unimodality for finite and parameterized coefficient families.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "V",
     "name": "Verification Cloud",
     "productId": "verification-cloud",
     "description": "Hosted exact verification jobs with receipts, hashes, and reproducibility records.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 199,
       "labMonthlyUsd": 999
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "W",
     "name": "Research Training Studio",
     "productId": "research-training-studio",
     "description": "Interactive training on exact certificates, conjecture testing, and proof QA.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 20,
       "institutionCustom": true
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "X",
     "name": "Experimental Mathematics Benchmark",
     "productId": "experimental-math-benchmark",
     "description": "Benchmark AI and symbolic systems on conjecture-to-certificate tasks.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 99,
       "enterpriseApiCustom": true
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "Y",
     "name": "Yielded-Theorem Registry",
     "productId": "yielded-theorem-registry",
     "description": "Timestamp theorem candidates, proof status, hashes, and publication state.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
       "monthlyUsd": 19
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   },
   {
     "letter": "Z",
     "name": "Zero-Placeholder Research OS Client",
     "productId": "zero-placeholder-research-os",
     "description": "Public client shell for the private end-to-end AXEZENT research backend; private discovery internals are excluded.",
-    "status": "public-commercial-shell",
-    "billing": "subscription",
     "entitlementEndpoint": "/v1/entitlements/check",
     "premiumEnforcement": "server-side",
     "launchPricing": {
@@ -395,7 +393,9 @@
       "enterpriseMonthlyMinUsd": 5000,
       "enterpriseMonthlyMaxUsd": 25000
     },
-    "pricingStatus": "launch-hypothesis-subject-to-contract",
-    "paymentDestination": "$axezent"
+    "paymentDestination": "$axezent",
+    "availability": "Preview",
+    "billingModel": "subscription",
+    "activation": "required"
   }
 ]
