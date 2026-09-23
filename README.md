@@ -2,7 +2,7 @@
 
 ![AXEZENT AI Logo](assets/axezent-ai-logo.svg)
 
-Truth-first verified mathematics artifacts and public AXEZENT research software.
+Truth-first scoped verification artifacts and public AXEZENT research software.
 
 **Researcher:** Shawn Calvin Snelling · [ORCID 0009-0009-3605-7109](https://orcid.org/0009-0009-3605-7109)
 
