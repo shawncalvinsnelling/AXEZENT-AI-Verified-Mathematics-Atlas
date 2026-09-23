@@ -68,7 +68,7 @@ export async function assertEntitled(cfg: EntitlementConfig, feature?: string) {
 
   if (!result.allowed || !featureAllowed) {
     throw new EntitlementError(
-      result.reason ?? (feature ? `feature_not_entitled:${feature}` : "subscription_inactive"),
+      result.reason ?? (feature ? `feature_not_entitled:${feature}` : "entitlement_inactive"),
       result
     );
   }

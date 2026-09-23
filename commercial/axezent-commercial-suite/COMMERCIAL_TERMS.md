@@ -1,25 +1,39 @@
 # AXEZENT Commercial Terms Summary
 
-Copyright © 2026 Shawn Calvin Snelling / AXEZENT. All rights reserved.
+**AXEZENT is an independent research and software brand operated by Shawn Calvin Snelling.**
 
-This repository does not grant a commercial license to AXEZENT paid services or proprietary technology.
+The controlling customer terms are the [AXEZENT Terms of Service](./TERMS_OF_SERVICE.md). This page is a short commercial summary only.
 
-## Subscription access
+## Product status
 
-Paid customers receive a limited, non-transferable right to use the AXEZENT services and features included in their active plan or order.
+Products are released in stages. A product labeled **Preview** is not represented as generally available. Preview pricing is informational until AXEZENT confirms a specific activation in writing.
 
-## Ownership
+## Current billing
 
-AXEZENT retains ownership of its software, proprietary technology, service infrastructure, research systems, and other background intellectual property except where a signed agreement expressly states otherwise.
+The current manual paid-access process does **not** automatically renew. A monthly price means a 30-day access period unless a written order expressly says otherwise.
 
-## Restrictions
+Customers must not send unsolicited payments. AXEZENT provides approved payment instructions only after confirming product availability, price, access period, applicable taxes or tax treatment, and the governing terms.
 
-Unless expressly authorized in writing, customers may not resell AXEZENT service access, operate a competing hosted service using AXEZENT proprietary services, bypass entitlement controls, or represent AXEZENT technology as their own.
+See [Billing & Activation](./PAYMENTS.md) and the [Refund and Cancellation Policy](./REFUND_CANCELLATION_POLICY.md).
 
-## Public research
+## Research boundary
 
-Public mathematical papers, public datasets, and third-party dependencies may carry separate terms. Those terms control their respective materials.
+AXEZENT provides mathematical research and computational verification tools. Certificates and receipts apply only to their stated scope. They are not independent peer review, journal approval, professional accreditation, patentability opinions, or guarantees of publication, novelty, completeness, historical priority, or universal correctness.
+
+See the [Product Claims and Research Status Notice](./PRODUCT_CLAIMS_NOTICE.md).
+
+## Ownership and licensing
+
+AXEZENT retains its rights in proprietary software, private infrastructure, unpublished research systems, and background technology except where an express license says otherwise.
+
+The published six-cycle paper is CC BY 4.0. That paper license does not automatically license AXEZENT software or private systems.
+
+See [License and Attribution](./LICENSE_AND_ATTRIBUTION.md).
+
+## Privacy
+
+Personal information is handled under the [Privacy Policy](./PRIVACY_POLICY.md).
 
 ## Enterprise agreements
 
-Organization, OEM, field-of-use, private-deployment, and custom-service rights are governed by the applicable written agreement or order form.
+Organization, OEM, field-of-use, private-deployment, and custom-service rights require the applicable written agreement or order form.
