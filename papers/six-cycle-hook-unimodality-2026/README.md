@@ -4,11 +4,12 @@
 **ORCID:** [0009-0009-3605-7109](https://orcid.org/0009-0009-3605-7109)  
 **DOI:** [10.5281/zenodo.22910548](https://doi.org/10.5281/zenodo.22910548)  
 **Date:** 22 September 2026  
-**Status:** Public preprint for independent mathematical review
+**Status:** Public preprint for independent mathematical review  
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ## Main theorem
 
-For every integer (s\ge 1), the hook-multiplicity polynomial
+For every integer (sge 1), the hook-multiplicity polynomial
 
 [
 M_{(6^s)}(x)
@@ -22,7 +23,7 @@ The paper also proves:
 - If (
 u) is a nonempty partition with no part equal to (6) and (M_
 u(x)) is unimodal, then (M_{
-u\sqcup(6^s)}(x)) is unimodal for every (s\ge1).
+usqcup(6^s)}(x)) is unimodal for every (sge1).
 - Every nonempty partition whose parts lie in ({1,2,3,4,5,6}), with arbitrary multiplicities and total size, has a unimodal hook-multiplicity sequence.
 
 ## Files
@@ -35,6 +36,8 @@ u\sqcup(6^s)}(x)) is unimodal for every (s\ge1).
 This preprint proves an infinite subfamily of Conjecture 8.1 of Adin–Hegedüs–Roichman. It does **not** claim the full arbitrary-partition conjecture is solved.
 
 The proof is symbolic for all (s), not an extrapolation from finite computation. Historical priority remains subject to specialist literature review.
+
+The DOI establishes a citable public preprint record. It is not, by itself, peer review or journal acceptance.
 
 ## Reference
 
