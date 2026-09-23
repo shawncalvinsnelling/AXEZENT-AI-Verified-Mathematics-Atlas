@@ -1,0 +1,31 @@
+# AXEZENT Commercial Software Suite
+
+Public commercial product shells for 26 AXEZENT mathematical research and verification ventures.
+
+## Subscription architecture
+
+```
+public GitHub client
+        |
+        v
+phone-home entitlement check
+        |
+        +-- active subscription --> paid API / private computation
+        |
+        +-- expired / unpaid ----> premium operation denied
+```
+
+The private discovery/search/scoring engine is **not included** in this repository.
+
+A local license check in public source code can be removed, so valuable paid computation must remain behind a private service that independently verifies entitlement. Expired or unpaid subscriptions simply stop premium operations. There is no self-deletion, destructive behavior, hidden persistence, or anti-analysis mechanism.
+
+See:
+- [VENTURES.md](./VENTURES.md)
+- [products.json](./products.json)
+- [licensing/](./licensing/)
+- [COMMERCIAL_TERMS.md](./COMMERCIAL_TERMS.md)
+- [PRIVACY_BOUNDARY.md](./PRIVACY_BOUNDARY.md)
+
+## Legal entity boundary
+
+These are software brands/product ventures, not incorporated legal entities. LLC/corporation formation, banking, tax registration, trademarks, contracts, and insurance are separate business steps.
