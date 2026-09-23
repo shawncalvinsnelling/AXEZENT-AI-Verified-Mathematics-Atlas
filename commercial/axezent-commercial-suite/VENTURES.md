@@ -1,41 +1,34 @@
-# AXEZENT A-Z Venture Registry
+# AXEZENT Product Portfolio
 
-| ID | Venture | Product ID | Purpose |
-|---|---|---|---|
-| A | **AHR Explorer Pro** | `ahr-explorer-pro` | Analyze hook-multiplicity polynomials, theorem coverage, unimodality, support, and exact certificates. |
-| B | **Boundless Six-Cycle Certifier** | `six-cycle-certifier` | Certify the published all-s six-cycle theorem and return exact machine-readable receipts. |
-| C | **Coefficient Formula Compiler** | `coefficient-formula-compiler` | Convert supported rational generating functions into exact piecewise coefficient formulas and recurrences. |
-| D | **Discovery Engine Client** | `discovery-engine-client` | Paid client for the private AXEZENT theorem-discovery backend. Private search/scoring logic is not published. |
-| E | **Exact Proof API** | `exact-proof-api` | Serve exact theorem checks and verification receipts through a paid API. |
-| F | **Formalization Factory** | `formalization-factory` | Turn mathematical proof outlines into typed proof obligations and formalization work queues. |
-| G | **Generating-Function Analyzer** | `generating-function-analyzer` | Analyze rational generating functions, coefficient structure, positivity, support, and recurrences. |
-| H | **Hook Multiplicity Database** | `hook-multiplicity-database` | Search hook-multiplicity data, theorem status, exact formulas, and verification artifacts. |
-| I | **Insertion Theorem Engine** | `insertion-theorem-engine` | Test and certify property-preserving insertion rules for parameterized combinatorial families. |
-| J | **Journal Proof Auditor** | `journal-proof-auditor` | Run reproducibility, boundary-case, formula-consistency, and certificate audits for manuscripts. |
-| K | **Conjecture Knowledge Graph** | `conjecture-knowledge-graph` | Map conjectures to subfamilies, lemmas, counterexamples, certificates, and literature links. |
-| L | **Log-Concavity Certificate Generator** | `log-concavity-certificates` | Search for exact positive-polynomial certificates proving log-concavity or exposing failures. |
-| M | **CAS Plugin Pack** | `cas-plugin-pack` | Provide paid connectors from symbolic-algebra systems to AXEZENT verification APIs. |
-| N | **Novelty Scanner** | `novelty-scanner` | Compare theorem candidates against indexed literature and maintain an evidence-backed novelty ledger. |
-| O | **Open-Problem Attack Console** | `open-problem-console` | Manage scoped open-problem targets, proof obligations, counterexamples, and surviving branches. |
-| P | **PF2 Total Positivity Engine** | `pf2-total-positivity` | Check PF2/log-concavity conditions and convolution-preservation certificates. |
-| Q | **Proof QA System** | `proof-qa-system` | Adversarially test proofs for hidden assumptions, edge cases, circularity, and false promotion. |
-| R | **Representation Theory Workbench** | `representation-theory-workbench` | Higher-Lie, symmetric-group, partition, and hook-multiplicity research interface. |
-| S | **Sage GAP Bridge** | `sage-gap-bridge` | Bridge external algebra systems to the paid verification/certificate service. |
-| T | **Theorem-to-Certificate Compiler** | `theorem-certificate-compiler` | Compile supported theorem claims into exact reproducible certificates and audit receipts. |
-| U | **Unimodality Laboratory** | `unimodality-lab` | Analyze and certify unimodality for finite and parameterized coefficient families. |
-| V | **Verification Cloud** | `verification-cloud` | Hosted exact verification jobs with receipts, hashes, and reproducibility records. |
-| W | **Research Training Studio** | `research-training-studio` | Interactive training on exact certificates, conjecture testing, and proof QA. |
-| X | **Experimental Mathematics Benchmark** | `experimental-math-benchmark` | Benchmark AI and symbolic systems on conjecture-to-certificate tasks. |
-| Y | **Yielded-Theorem Registry** | `yielded-theorem-registry` | Timestamp theorem candidates, proof status, hashes, and publication state. |
-| Z | **Zero-Placeholder Research OS Client** | `zero-placeholder-research-os` | Public client shell for the private end-to-end AXEZENT research backend; private discovery internals are excluded. |
+AXEZENT's A-Z portfolio covers mathematical discovery, symbolic analysis, formal verification, proof auditing, research infrastructure, and scientific reproducibility.
 
-## Commercial model
+| ID | Product | Purpose |
+|---|---|---|
+| A | **AHR Explorer Pro** | Hook-multiplicity analysis, theorem coverage, unimodality, and exact certificates |
+| B | **Boundless Six-Cycle Certifier** | Exact certification for the published all-`s` six-cycle theorem |
+| C | **Coefficient Formula Compiler** | Exact coefficient formulas and recurrences from supported generating functions |
+| D | **Discovery Engine** | Controlled access to AXEZENT's private theorem-discovery service |
+| E | **Exact Proof API** | Programmatic exact theorem checks and verification receipts |
+| F | **Formalization Factory** | Formal proof obligations and machine-verification workflows |
+| G | **Generating-Function Analyzer** | Structure, positivity, support, recurrence, and coefficient analysis |
+| H | **Hook Multiplicity Database** | Searchable hook-multiplicity formulas, families, and verification records |
+| I | **Insertion Theorem Engine** | Analysis and certification of property-preserving insertion rules |
+| J | **Journal Proof Auditor** | Reproducibility and mathematical consistency audits for manuscripts |
+| K | **Conjecture Knowledge Graph** | Structured links between conjectures, lemmas, subfamilies, counterexamples, and proofs |
+| L | **Log-Concavity Certificate Generator** | Exact positive-polynomial and log-concavity certificate workflows |
+| M | **CAS Plugin Pack** | Integrations for symbolic-algebra environments |
+| N | **Novelty Scanner** | Evidence-backed literature comparison for candidate research results |
+| O | **Open-Problem Attack Console** | Structured research workspace for scoped open mathematical problems |
+| P | **PF2 Total Positivity Engine** | PF2, total-positivity, and convolution-certificate analysis |
+| Q | **Proof QA System** | Adversarial proof testing for edge cases, assumptions, and logical defects |
+| R | **Representation Theory Workbench** | Partition, character, higher-Lie, and representation-theory workflows |
+| S | **Sage/GAP Bridge** | Integration between algebra systems and AXEZENT verification services |
+| T | **Theorem-to-Certificate Compiler** | Reproducible exact certificates and audit receipts from supported theorem claims |
+| U | **Unimodality Laboratory** | Finite and parameterized unimodality analysis |
+| V | **Verification Cloud** | Hosted verification jobs, receipts, hashes, and reproducibility records |
+| W | **Research Training Studio** | Interactive training in exact certificates and proof QA |
+| X | **Experimental Mathematics Benchmark** | Benchmarks for AI and symbolic systems on verified mathematical tasks |
+| Y | **Yielded-Theorem Registry** | Timestamped theorem status, proof records, and release hashes |
+| Z | **Zero-Placeholder Research OS** | Integrated AXEZENT research environment |
 
-Every venture uses the same entitlement contract:
-
-- Evaluation: public/demo capability.
-- Pro: paid individual/research access.
-- Enterprise: organization access, higher limits, support, audit receipts, and private deployment options.
-- Private core: discovery/search/scoring logic is not published.
-
-Each premium request is authorized server-side. If the customer's paid entitlement expires or is revoked, premium API calls are denied.
+Product availability varies by release stage. Preview products are identified during onboarding and are not billed until activated.
