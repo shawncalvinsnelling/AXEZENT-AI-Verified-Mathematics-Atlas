@@ -4,6 +4,8 @@
 
 Truth-first verified mathematics artifacts and public AXEZENT research software.
 
+**Researcher:** Shawn Calvin Snelling · [ORCID 0009-0009-3605-7109](https://orcid.org/0009-0009-3605-7109)
+
 ## Public research
 
 This atlas organizes finite certificates, exact receipts, tests, truth ledgers, Lean gates, and the public six-cycle hook-unimodality preprint.

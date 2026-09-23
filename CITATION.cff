@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use AXEZENT Verified Mathematics Atlas or its public verification software, please cite this repository and the relevant paper."
+title: "AXEZENT AI Verified Mathematics Atlas"
+type: software
+authors:
+  - family-names: "Snelling"
+    given-names: "Shawn Calvin"
+    orcid: "https://orcid.org/0009-0009-3605-7109"
+repository-code: "https://github.com/shawncalvinsnelling/AXEZENT-AI-Verified-Mathematics-Atlas"
+url: "https://github.com/shawncalvinsnelling/AXEZENT-AI-Verified-Mathematics-Atlas"
+date-released: "2026-09-22"
+license: "proprietary"
+preferred-citation:
+  type: article
+  title: "Six-Cycle Insertion and Hook-Unimodality in Higher Lie Characters"
+  authors:
+    - family-names: "Snelling"
+      given-names: "Shawn Calvin"
+      orcid: "https://orcid.org/0009-0009-3605-7109"
+  year: 2026
