@@ -1,0 +1,42 @@
+openapi: 3.1.0
+info:
+  title: AXEZENT Entitlement API
+  version: 0.1.0
+paths:
+  /v1/entitlements/check:
+    post:
+      summary: Check a product entitlement
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [productId, installationId, version]
+              properties:
+                productId: { type: string }
+                installationId: { type: string }
+                version: { type: string }
+      responses:
+        "200":
+          description: Entitlement decision
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [allowed, productId]
+                properties:
+                  allowed: { type: boolean }
+                  productId: { type: string }
+                  expiresAt: { type: string, format: date-time }
+                  features:
+                    type: array
+                    items: { type: string }
+                  reason: { type: string }
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
