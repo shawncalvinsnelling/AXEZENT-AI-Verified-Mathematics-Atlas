@@ -2,17 +2,33 @@
 
 Public commercial product shells for 26 AXEZENT mathematical research and verification ventures.
 
+## Payment
+
+Primary customer-facing payment destination:
+
+**Cash App: $axezent**
+
+See [PAYMENTS.md](./PAYMENTS.md) for the activation rules.
+
+A Cash App payment, payment note, or screenshot does **not** by itself unlock premium software. Premium access is granted only after the AXEZENT entitlement service records the payment as verified.
+
 ## Subscription architecture
 
 ```
+customer -> Cash App $axezent
+             |
+             v
+       payment verified
+             |
+             v
 public GitHub client
         |
         v
 phone-home entitlement check
         |
-        +-- active subscription --> paid API / private computation
+        +-- active entitlement --> paid API / private computation
         |
-        +-- expired / unpaid ----> premium operation denied
+        +-- expired / unpaid --> premium operation denied
 ```
 
 The private discovery/search/scoring engine is **not included** in this repository.
@@ -22,6 +38,7 @@ A local license check in public source code can be removed, so valuable paid com
 See:
 - [VENTURES.md](./VENTURES.md)
 - [products.json](./products.json)
+- [PAYMENTS.md](./PAYMENTS.md)
 - [licensing/](./licensing/)
 - [COMMERCIAL_TERMS.md](./COMMERCIAL_TERMS.md)
 - [PRIVACY_BOUNDARY.md](./PRIVACY_BOUNDARY.md)
