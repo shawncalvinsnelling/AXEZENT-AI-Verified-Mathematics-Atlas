@@ -1,33 +1,35 @@
 [
   {
     "letter": "A",
-    "name": "AHR Explorer Pro",
-    "productId": "ahr-explorer-pro",
-    "description": "Analyze hook-multiplicity polynomials, theorem coverage, unimodality, support, and exact certificates.",
+    "name": "Hook-Multiplicity Explorer Pro",
+    "productId": "hook-multiplicity-explorer-pro",
+    "description": "Analyze hook-multiplicity polynomials, theorem coverage, unimodality, support, and scoped exact certificates.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "B",
     "name": "Boundless Six-Cycle Certifier",
     "productId": "six-cycle-certifier",
-    "description": "Certify the published all-s six-cycle theorem and return exact machine-readable receipts.",
+    "description": "Run scoped exact checks for the published all-s six-cycle theorem and return machine-readable receipts.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 19
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "C",
@@ -35,14 +37,15 @@
     "productId": "coefficient-formula-compiler",
     "description": "Convert supported rational generating functions into exact piecewise coefficient formulas and recurrences.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "D",
@@ -50,31 +53,33 @@
     "productId": "discovery-engine-client",
     "description": "Paid client for the private AXEZENT theorem-discovery backend. Private search/scoring logic is not published.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 499,
       "labMonthlyUsd": 2500
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "E",
-    "name": "Exact Proof API",
-    "productId": "exact-proof-api",
-    "description": "Serve exact theorem checks and verification receipts through a paid API.",
+    "name": "Exact Verification API",
+    "productId": "exact-verification-api",
+    "description": "Serve exact checks and verification receipts for supported claims through an activated API.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 99,
       "usageBased": true
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "F",
@@ -82,14 +87,15 @@
     "productId": "formalization-factory",
     "description": "Turn mathematical proof outlines into typed proof obligations and formalization work queues.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 199
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "G",
@@ -97,14 +103,15 @@
     "productId": "generating-function-analyzer",
     "description": "Analyze rational generating functions, coefficient structure, positivity, support, and recurrences.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "H",
@@ -112,14 +119,15 @@
     "productId": "hook-multiplicity-database",
     "description": "Search hook-multiplicity data, theorem status, exact formulas, and verification artifacts.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "I",
@@ -127,30 +135,32 @@
     "productId": "insertion-theorem-engine",
     "description": "Test and certify property-preserving insertion rules for parameterized combinatorial families.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 149
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "J",
     "name": "Journal Proof Auditor",
     "productId": "journal-proof-auditor",
-    "description": "Run reproducibility, boundary-case, formula-consistency, and certificate audits for manuscripts.",
+    "description": "Run reproducibility, boundary-case, formula-consistency, and certificate audits for manuscripts; this is not journal peer review.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "perReportUsd": 199,
       "monthlyUsd": 299
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "K",
@@ -158,14 +168,15 @@
     "productId": "conjecture-knowledge-graph",
     "description": "Map conjectures to subfamilies, lemmas, counterexamples, certificates, and literature links.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 49
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "L",
@@ -173,14 +184,15 @@
     "productId": "log-concavity-certificates",
     "description": "Search for exact positive-polynomial certificates proving log-concavity or exposing failures.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "M",
@@ -188,30 +200,32 @@
     "productId": "cas-plugin-pack",
     "description": "Provide paid connectors from symbolic-algebra systems to AXEZENT verification APIs.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 39
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "N",
     "name": "Novelty Scanner",
     "productId": "novelty-scanner",
-    "description": "Compare theorem candidates against indexed literature and maintain an evidence-backed novelty ledger.",
+    "description": "Compare theorem candidates against indexed literature and maintain an evidence-backed comparison ledger; not an exhaustive prior-art or patentability search.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "perReportUsd": 79,
       "monthlyUsd": 149
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "O",
@@ -219,14 +233,15 @@
     "productId": "open-problem-console",
     "description": "Manage scoped open-problem targets, proof obligations, counterexamples, and surviving branches.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 299
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "P",
@@ -234,14 +249,15 @@
     "productId": "pf2-total-positivity",
     "description": "Check PF2/log-concavity conditions and convolution-preservation certificates.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "Q",
@@ -249,14 +265,15 @@
     "productId": "proof-qa-system",
     "description": "Adversarially test proofs for hidden assumptions, edge cases, circularity, and false promotion.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 149
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "R",
@@ -264,14 +281,15 @@
     "productId": "representation-theory-workbench",
     "description": "Higher-Lie, symmetric-group, partition, and hook-multiplicity research interface.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 99
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "S",
@@ -279,14 +297,15 @@
     "productId": "sage-gap-bridge",
     "description": "Bridge external algebra systems to the paid verification/certificate service.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 29
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "T",
@@ -294,14 +313,15 @@
     "productId": "theorem-certificate-compiler",
     "description": "Compile supported theorem claims into exact reproducible certificates and audit receipts.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 249
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "U",
@@ -309,14 +329,15 @@
     "productId": "unimodality-lab",
     "description": "Analyze and certify unimodality for finite and parameterized coefficient families.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 79
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "V",
@@ -324,15 +345,16 @@
     "productId": "verification-cloud",
     "description": "Hosted exact verification jobs with receipts, hashes, and reproducibility records.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 199,
       "labMonthlyUsd": 999
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "W",
@@ -340,15 +362,16 @@
     "productId": "research-training-studio",
     "description": "Interactive training on exact certificates, conjecture testing, and proof QA.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 20,
       "institutionCustom": true
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "X",
@@ -356,15 +379,16 @@
     "productId": "experimental-math-benchmark",
     "description": "Benchmark AI and symbolic systems on conjecture-to-certificate tasks.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 99,
       "enterpriseApiCustom": true
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "Y",
@@ -372,14 +396,15 @@
     "productId": "yielded-theorem-registry",
     "description": "Timestamp theorem candidates, proof status, hashes, and publication state.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 19
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   },
   {
     "letter": "Z",
@@ -387,15 +412,16 @@
     "productId": "zero-placeholder-research-os",
     "description": "Public client shell for the private end-to-end AXEZENT research backend; private discovery internals are excluded.",
     "entitlementEndpoint": "/v1/entitlements/check",
-    "premiumEnforcement": "server-side",
+    "premiumEnforcement": "planned-server-side",
     "launchPricing": {
       "monthlyUsd": 999,
       "enterpriseMonthlyMinUsd": 5000,
       "enterpriseMonthlyMaxUsd": 25000
     },
-    "paymentDestination": "$axezent",
+    "paymentDestination": null,
     "availability": "Preview",
-    "billingModel": "subscription",
-    "activation": "required"
+    "billingModel": "manual-nonrenewing-preview-access",
+    "activation": "written-confirmation-required",
+    "paymentPolicy": "no-unsolicited-payments"
   }
 ]
