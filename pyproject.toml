@@ -1,7 +1,11 @@
 [project]
 name = "axezent-ai-verified-mathematics-atlas"
-version = "0.1.0"
+version = "0.2.0"
+description = "Truth-first exact mathematics certificates and verification artifacts from AXEZENT."
 requires-python = ">=3.10"
+
+[project.scripts]
+axezent-six-cycle = "axezent_ai_verified_math.cli:main"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]

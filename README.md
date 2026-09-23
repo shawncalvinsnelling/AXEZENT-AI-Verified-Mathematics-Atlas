@@ -2,22 +2,38 @@
 
 ![AXEZENT AI Logo](assets/axezent-ai-logo.svg)
 
-Truth-first verified mathematics artifacts.
+Truth-first verified mathematics artifacts and public AXEZENT research software.
 
-## Purpose
+## Public research
 
-This is the master index for Axezent AI verified math repos. It organizes finite certificates, exact receipts, tests, truth ledgers, and Lean gates.
+This atlas organizes finite certificates, exact receipts, tests, truth ledgers, Lean gates, and the public six-cycle hook-unimodality preprint.
 
-## Upload order
+## Available software
 
-Support repos should go live before this master atlas:
+### Six-Cycle Exact Certifier
 
-1. AXEZENT-AI-Schur-Green-Local-Certificate
-2. AXEZENT-AI-Graph-Ramsey-R33
-3. AXEZENT-AI-Schur-Number-S3
-4. AXEZENT-AI-SAT-W24-Solver
-5. AXEZENT-AI-Verified-Mathematics-Atlas
+Generate an exact verification receipt for the published family `(6^s)`:
+
+```bash
+python -m axezent_ai_verified_math.cli 6 --json
+```
+
+or, after package installation:
+
+```bash
+axezent-six-cycle 6 --json
+```
+
+The CI regression suite checks the published formulas and properties for `s=1..250`.
+
+## AXEZENT commercial platform
+
+[AXEZENT Commercial Software Suite](commercial/axezent-commercial-suite/) contains the customer-facing product portfolio, pricing, enterprise information, onboarding, and public evaluation site.
+
+## Research paper
+
+[Six-Cycle Insertion and Hook-Unimodality in Higher Lie Characters](papers/six-cycle-hook-unimodality-2026/)
 
 ## Truth boundary
 
-This atlas indexes verified finite artifacts and local certificates. It does not claim global OPAC-018 solved or any major open problem solved.
+This atlas distinguishes exact verified artifacts from preview systems and open mathematical problems. It does not claim global OPAC-018 closure or solutions to major open problems unless a complete evidence record establishes that status.
