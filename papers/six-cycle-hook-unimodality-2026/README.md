@@ -1,6 +1,7 @@
 # Six-Cycle Insertion and Hook-Unimodality in Higher Lie Characters
 
 **Author:** Shawn Calvin Snelling  
+**ORCID:** [0009-0009-3605-7109](https://orcid.org/0009-0009-3605-7109)  
 **Date:** 22 September 2026  
 **Status:** Public preprint for independent mathematical review
 
