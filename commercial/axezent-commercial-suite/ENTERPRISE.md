@@ -1,38 +1,44 @@
-# AXEZENT Enterprise Commercial Standard
+# AXEZENT Enterprise
 
-## Contract model
+AXEZENT Enterprise provides organization-level access to mathematical verification, formalization, research automation, and private discovery services.
 
-Enterprise access is licensed, not sold. Default commercial structure:
+## Enterprise capabilities
 
-- annual organization agreement;
+- Organization and team licensing
+- Higher API and verification limits
+- Private or controlled deployment options where supported
+- Reproducibility and audit receipts
+- Priority technical support
+- Custom integrations
+- OEM and field-of-use licensing
+- Negotiated confidentiality and data-handling terms
+
+## Deployment
+
+Enterprise deployments are scoped according to the selected products, compute requirements, user count, and integration needs. Private discovery services remain server-side unless a separate written license expressly provides otherwise.
+
+## Security
+
+Premium authorization is enforced by AXEZENT services. Customer credentials and financial secrets are not stored in the public repository. Customer research content is not used as payment telemetry.
+
+## Intellectual property
+
+AXEZENT retains ownership of its pre-existing software, algorithms, infrastructure, research systems, and proprietary technology. Customer-supplied materials and project-specific rights are governed by the applicable written agreement.
+
+## Commercial terms
+
+Enterprise agreements may include:
+
+- annual subscription term;
 - named or metered users;
-- defined products/features;
-- defined compute/API limits;
-- field-of-use and deployment scope;
-- support tier;
-- confidentiality obligations;
-- data-handling schedule;
-- IP ownership and license boundaries;
-- suspension/termination rules tied to the agreement.
+- API and compute allocations;
+- support commitments;
+- confidentiality;
+- data-handling requirements;
+- deployment scope;
+- field-of-use restrictions where applicable;
+- renewal, suspension, and termination terms.
 
-## Ownership
+Enterprise availability is subject to product readiness and an executed order form or services agreement.
 
-AXEZENT retains all right, title, and interest in pre-existing technology, private algorithms, discovery methods, verification infrastructure, unpublished inventions, internal datasets, and improvements that are not expressly assigned in a signed agreement.
-
-Customer ownership of customer-supplied materials remains governed by the executed contract. No public repository file should be interpreted as transferring ownership of private AXEZENT background IP.
-
-## Outputs
-
-Reports, certificates, API results, and generated artifacts may be licensed to customers under the applicable plan. Any representation that an output establishes patentability, legal validity, scientific truth, regulatory acceptance, or commercial fitness requires independent review appropriate to that domain.
-
-## Security / access
-
-- Premium authorization is server-side.
-- Expired or revoked entitlements stop premium operations.
-- No destructive lockout, self-deletion, hidden persistence, or anti-analysis behavior.
-- Secrets and customer financial credentials are never committed to GitHub.
-- Customer research content is not used as payment telemetry.
-
-## Procurement status
-
-The public suite is pre-production. Formal SLA, DPA, indemnity, warranty, tax, export, insurance, and procurement terms must be finalized before representing the suite as enterprise-ready.
+**Enterprise pricing begins at $25,000 per year.**
