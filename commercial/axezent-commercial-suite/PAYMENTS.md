@@ -1,38 +1,23 @@
-# AXEZENT Payments
+# Billing & Activation
 
-## Payment destination
+## Cash App
 
-**Cash App Cashtag: $axezent**
+AXEZENT currently accepts customer payments through:
 
-## Access rule
+**Cash App — $axezent**
 
-Payment and software access are intentionally separate steps:
+## Activation
 
-1. Customer pays the required amount to **$axezent**.
-2. The payment is verified by the AXEZENT payment/entitlement backend or an authorized manual verification process.
-3. A verified payment creates or extends the customer's entitlement.
-4. The customer application checks that entitlement before premium operations.
-5. When the entitlement expires or is revoked, premium operations stop until access is renewed.
+After payment is confirmed, AXEZENT issues or extends the customer's software entitlement. Premium applications verify that entitlement with AXEZENT before running paid features.
 
-## Security rule
+A screenshot or unverified payment claim is not sufficient for activation.
 
-Do not unlock software from:
-- screenshots;
-- typed claims of payment;
-- transaction IDs supplied only by the customer;
-- client-side flags;
-- editable local files.
+## Renewals
 
-The entitlement backend is the authority.
+When a paid access period ends, the entitlement expires and premium services become unavailable until renewed. Expiration does not delete customer files or alter customer-owned data.
 
-## Customer privacy
+## Current processing
 
-The licensing system should not collect customer proofs, unpublished mathematics, source code, research files, prompts, or other research content as payment telemetry.
+Cash App payments are currently confirmed through an authorized activation process. Automated merchant-side payment verification may be added as the billing platform expands.
 
-## Cash App integration status
-
-The public Cashtag is configured as **$axezent**.
-
-Automatic Cash App payment verification is not yet deployed in this repository. Until a verified merchant/API integration is connected, payment confirmation must be recorded through an authorized manual process before an entitlement is issued.
-
-No Cash App password, PIN, account credential, private API secret, or customer financial credential belongs in this repository.
+AXEZENT never asks customers to place Cash App passwords, PINs, or private financial credentials in GitHub, software configuration files, or support messages.
