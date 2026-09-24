@@ -1,0 +1,40 @@
+name: Build six-cycle v2 referee PDF
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "papers/six-cycle-hook-unimodality-2026/Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.tex"
+      - ".github/workflows/build-six-cycle-v2.yml"
+  push:
+    paths:
+      - "papers/six-cycle-hook-unimodality-2026/Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.tex"
+      - ".github/workflows/build-six-cycle-v2.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-recommended texlive-latex-extra
+
+      - name: Compile v2 paper
+        working-directory: papers/six-cycle-hook-unimodality-2026
+        run: |
+          pdflatex -interaction=nonstopmode -halt-on-error Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.tex
+          pdflatex -interaction=nonstopmode -halt-on-error Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.tex
+
+      - name: Upload compiled PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: six-cycle-v2-referee-pdf
+          path: papers/six-cycle-hook-unimodality-2026/Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.pdf
+          if-no-files-found: error
