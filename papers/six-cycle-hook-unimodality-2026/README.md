@@ -1,44 +1,47 @@
-# Six-Cycle Insertion and Hook-Unimodality in Higher Lie Characters
+# Six-Cycle Hook-Unimodality — referee-candidate v2 branch
 
 **Author:** Shawn Calvin Snelling  
-**ORCID:** [0009-0009-3605-7109](https://orcid.org/0009-0009-3605-7109)  
-**DOI:** [10.5281/zenodo.22910548](https://doi.org/10.5281/zenodo.22910548)  
-**Date:** 22 September 2026  
-**Status:** Public preprint for independent mathematical review  
-**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+**ORCID:** 0009-0009-3605-7109  
+**Original public preprint date:** 22 September 2026  
+**v2 referee-candidate date:** 24 September 2026  
+**Status:** revision branch for independent review; not journal accepted
 
-## Main theorem
+## Why v2 exists
 
-For every integer (sge 1), the hook-multiplicity polynomial
+Editorial feedback identified two screening questions: significance of the partial result and mathematical novelty/structure of the proof. The v2 audit keeps the original all-s unimodality theorem and adds a stronger exact statement for the exceptional six-cycle family:
 
-[
-M_{(6^s)}(x)
-]
+M_(6^s)(x) is strictly log-concave on its nonzero support if and only if s >= 7.
 
-has unimodal coefficients.
+The threshold is proved symbolically. It is not inferred from finite testing.
 
-The paper also proves:
+## Main results in the candidate revision
 
-- ((1+x)M_{(6^s)}(x)) is strictly log-concave on its nonzero support.
-- If (
-u) is a nonempty partition with no part equal to (6) and (M_
-u(x)) is unimodal, then (M_{
-usqcup(6^s)}(x)) is unimodal for every (sge1).
-- Every nonempty partition whose parts lie in ({1,2,3,4,5,6}), with arbitrary multiplicities and total size, has a unimodal hook-multiplicity sequence.
+1. M_(6^s)(x) is unimodal for every s >= 1.
+2. (1+x)M_(6^s)(x) is strictly log-concave on its nonzero support for every s >= 1.
+3. M_(6^s)(x) itself is strictly log-concave exactly for s >= 7.
+4. If nu is nonempty, contains no six, and M_nu(x) is unimodal, then M_(nu union (6^s))(x) is unimodal for every s >= 1.
+5. Every nonempty partition with parts in {1,2,3,4,5,6} has a unimodal hook-multiplicity sequence.
 
 ## Files
 
-- [Publication PDF](./Snelling_Six_Cycle_Hook_Unimodality_2026-09-22.pdf)
-- [LaTeX source](./Snelling_Six_Cycle_Hook_Unimodality_2026-09-22.tex)
+- Original v1 source: Snelling_Six_Cycle_Hook_Unimodality_2026-09-22.tex
+- Referee-candidate v2 source: Snelling_Six_Cycle_Hook_Unimodality_2026-09-24_v2.tex
+- Experimental chronology: EXPERIMENTAL_DISCOVERY_LOG.md
+- Referee audit: REFEREE_AUDIT_V2.md
+- Symbolic threshold audit: verification/symbolic_threshold_audit.py
+- Independent AHR reconstruction: ../../axezent_ai_verified_math/six_cycle_v2.py
+- Adversarial tests: ../../tests/test_six_cycle_v2.py
 
-## Scope and truth boundary
+## Independent reconstruction
 
-This preprint proves an infinite subfamily of Conjecture 8.1 of Adin–Hegedüs–Roichman. It does **not** claim the full arbitrary-partition conjecture is solved.
+The v2 verifier starts from the published AHR r=6 product identity, reconstructs the y^s coefficient over the integers, divides exactly by 1+x, and compares the resulting P_s with the manuscript's closed coefficient formula.
 
-The proof is symbolic for all (s), not an extrapolation from finite computation. Historical priority remains subject to specialist literature review.
+This is intentionally independent of the legacy closed-form evaluator.
 
-The DOI establishes a citable public preprint record. It is not, by itself, peer review or journal acceptance.
+## Truth boundary
 
-## Reference
-
-R. M. Adin, P. Hegedüs, and Y. Roichman, *Higher Lie characters and cyclic descent extension on conjugacy classes*, Algebraic Combinatorics **6** (2023), no. 6, 1557–1591. DOI: 10.5802/alco.323.
+- The all-s claims are mathematical claims supported by symbolic proofs.
+- Finite regression tests are reproducibility/adversarial checks, not proofs of an infinite statement.
+- The discrete convolution lemma is classical strong unimodality and is now attributed to Keilson--Gerber (1971).
+- Historical priority of the exact s=7 threshold remains subject to a complete specialist literature review.
+- The original DOI is a public preprint record; v2 should receive updated archival metadata only after the revision is frozen.
