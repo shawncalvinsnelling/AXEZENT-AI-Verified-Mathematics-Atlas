@@ -1,0 +1,304 @@
+\documentclass[11pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[hidelinks]{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\title{Six-Cycle Insertion, an Exact Log-Concavity Threshold, and Hook-Unimodality in Higher Lie Characters}
+\author{Shawn Calvin Snelling}
+\address{Independent Researcher}
+\email{shawncsnelling@gmail.com}
+\thanks{ORCID: 0009-0009-3605-7109. Referee-candidate revision dated 24 September 2026.}
+\begin{document}
+\begin{abstract}
+Let \(M_\lambda(x)\) denote the hook-multiplicity polynomial of the higher Lie character attached to a conjugacy class of cycle type \(\lambda\). Adin--Heged\H{u}s--Roichman conjectured that the coefficient sequence of \(M_\lambda(x)\) is unimodal for every partition \(\lambda\), and separately conjectured log-concavity for rectangular types \((r^s)\) with even \(r\neq 6\). Using their product formula, we determine the six-cycle family explicitly for every \(s\ge1\). We prove that \(M_{(6^s)}(x)\) is unimodal for all \(s\), that \((1+x)M_{(6^s)}(x)\) is strictly log-concave on its nonzero support for all \(s\), and that the unsmoothed polynomial \(M_{(6^s)}(x)\) itself is strictly log-concave on its nonzero support if and only if \(s\ge7\). The threshold is controlled by an explicit quartic determinant. We then use discrete strong unimodality to prove a six-cycle insertion theorem. Consequently every nonempty partition whose parts lie in \(\{1,2,3,4,5,6\}\) has a unimodal hook-multiplicity sequence, with no bound on multiplicities or total size.
+\end{abstract}
+\maketitle
+
+\section{Introduction and main results}
+For a partition \(\lambda\vdash n\), write
+\[
+M_\lambda(x)=\sum_{k=0}^{n-1}m_{(n-k,1^k),\lambda}x^k,
+\]
+where \(m_{(n-k,1^k),\lambda}\) is the multiplicity of the hook character \(\chi^{(n-k,1^k)}\) in the higher Lie character \(\psi^\lambda\).
+
+Adin--Heged\H{u}s--Roichman \cite{AHR} conjectured that the coefficient sequence of \(M_\lambda(x)\) is unimodal for every partition \(\lambda\) (Conjecture 8.1 of \cite{AHR}). They verified this for all \(|\lambda|\le15\) and for rectangular shapes \((r^s)\) with \(r\le40\) and \(s\le5\). They also formulated a rectangular log-concavity conjecture for even \(r\neq6\) (Conjecture 8.2 of \cite{AHR}), explicitly excluding \(r=6\).
+
+\begin{theorem}[all six-cycles]\label{thm:all-six}
+For every integer \(s\ge1\), \(M_{(6^s)}(x)\) has unimodal coefficients. Moreover, \((1+x)M_{(6^s)}(x)\) is strictly log-concave on its nonzero support.
+\end{theorem}
+
+\begin{theorem}[exact six-cycle log-concavity threshold]\label{thm:threshold}
+The coefficient sequence of \(M_{(6^s)}(x)\) is strictly log-concave on its nonzero support if and only if \(s\ge7\).
+\end{theorem}
+
+\begin{theorem}[six-cycle insertion]\label{thm:insertion}
+Let \(\nu\) be a nonempty partition with no part equal to \(6\). If \(M_\nu(x)\) is unimodal, then for every \(s\ge1\), \(M_{\nu\sqcup(6^s)}(x)\) is unimodal.
+\end{theorem}
+
+\begin{corollary}\label{cor:parts-six}
+Every nonempty partition whose parts belong to \(\{1,2,3,4,5,6\}\), with arbitrary multiplicities and arbitrary total size, has a unimodal hook-multiplicity sequence.
+\end{corollary}
+
+\section{The AHR product and the six-cycle generating function}
+We use two identities from \cite{AHR}. First, when nonempty partitions \(\lambda\) and \(\nu\) have disjoint sets of part sizes,
+\begin{equation}\label{eq:disjoint}
+M_{\lambda\sqcup\nu}(x)=(1+x)M_\lambda(x)M_\nu(x).
+\end{equation}
+Second, for fixed \(r\),
+\begin{equation}\label{eq:AHRproduct}
+1+(1+x)\sum_{s\ge1}M_{(r^s)}(x)y^s
+=\prod_{j=0}^r\bigl(1-(-x)^j y\bigr)^{(-1)^{j+1}f_j(r)},
+\end{equation}
+where
+\[
+f_j(r)=\frac1r\sum_{d\mid\gcd(r,j)}\mu(d)(-1)^{(d+1)j/d}\binom{r/d}{j/d}.
+\]
+For \(r=6\),
+\[
+(f_0(6),\ldots,f_6(6))=(0,1,3,3,2,1,0),
+\]
+and hence
+\begin{equation}\label{eq:E6}
+E_6(x,y):=1+(1+x)\sum_{s\ge1}M_{(6^s)}(x)y^s
+=
+\frac{(1+xy)(1+x^3y)^3(1+x^5y)}
+{(1-x^2y)^3(1-x^4y)^2}.
+\end{equation}
+
+\section{Exact coefficients for the six-cycle family}
+Write
+\[
+M_{(6^s)}(x)=x^{2s-1}P_s(x),\qquad P_s(x)=\sum_{k=0}^{2s+1}q_{s,k}x^k.
+\]
+The coefficients are
+\begin{align}
+q_{s,0}&=\frac{s(s+1)}2,\\
+q_{s,1}&=\frac{3s^2-s+2}{2},\\
+q_{s,2}&=\frac{5s^2-7s+4}{2},
+\end{align}
+and for \(3\le k\le2s\),
+\begin{equation}\label{eq:Qs}
+q_{s,k}=Q_s(k):=
+\frac{k^3-4k^2s-3k^2+4ks^2+8ks+6k-4s^2-6s-4}{2},
+\end{equation}
+while \(q_{s,2s+1}=s\).
+
+For completeness, an exact rational identity yielding these formulas is
+\[
+P_s(x)=\frac{N_0(s,x)+x^{2s}N_1(s,x)}{(1-x)^4},
+\]
+where
+\begin{align*}
+a_2(x)&=\tfrac12(1-x-x^2+2x^3-x^4-x^5+x^6),\\
+a_1(x)&=\tfrac12(1-5x+3x^2-3x^4+5x^5-x^6),\\
+a_0(x)&=x-2x^2+5x^3-2x^4+x^5,\\
+b_1(x)&=x^5-x^4+x^2-x,\\
+b_0(x)&=-2x^4+x^3-2x^2,
+\end{align*}
+with \(N_0(s,x)=a_2(x)s^2+a_1(x)s+a_0(x)\) and \(N_1(s,x)=b_1(x)s+b_0(x)\).
+Summing over \(s\ge1\) after setting \(z=x^2y\) recovers \eqref{eq:E6}; coefficient extraction from \((1-x)^{-4}\) gives the displayed \(q_{s,k}\).
+
+The source archive also contains an independent exact-integer reproducer that starts from \eqref{eq:E6}, extracts \([y^s]E_6\), divides exactly by \(1+x\), and reconstructs the same coefficients without using the closed formulas as input.
+
+\section{Unimodality}
+For \(s=1,2\), the nonzero coefficient sequences of \(P_s\) are
+\[
+(1,2,1,1),\qquad (3,6,5,5,4,2),
+\]
+and are unimodal.
+
+Assume \(s\ge3\). The first three forward differences are
+\[
+s^2-s+1,\qquad s^2-3s+1,\qquad \frac{(3s-5)(s-2)}2,
+\]
+all positive. On the cubic interval,
+\[
+D_s(k):=Q_s(k+1)-Q_s(k)
+=\frac{3k^2-8ks-3k+4s^2+4s+4}{2},
+\]
+for \(3\le k\le2s-1\). This is a convex quadratic in \(k\), and
+\[
+D_s(2s-1)=5-3s<0.
+\]
+Hence once a nonpositive forward difference occurs, no later forward difference can become positive. Finally,
+\[
+q_{s,2s+1}-q_{s,2s}=2-2s<0.
+\]
+Thus the sequence increases and then decreases, with a possible plateau.
+
+\section{The exact strict-log-concavity threshold}
+Define
+\[
+\Delta_{s,k}=q_{s,k}^2-q_{s,k-1}q_{s,k+1}.
+\]
+For \(s=1\), \(P_1=(1,2,1,1)\), and
+\[
+1^2-2\cdot1=-1,
+\]
+so strict log-concavity fails.
+
+For \(s\ge2\),
+\begin{align}
+\Delta_{s,1}&=s^4-s^3+4s^2-2s+1,\label{eq:d1}\\
+\Delta_{s,2}&=\frac{s^4-8s^3+13s^2-6s-12}{4},\label{eq:d2}\\
+\Delta_{s,3}&=\frac{2s^4-7s^3+27s^2-50s+26}{2}.\label{eq:d3}
+\end{align}
+The controlling obstruction is \(\Delta_{s,2}\):
+\[
+\Delta_{2,2},\ldots,\Delta_{6,2}=-5,-12,-21,-23,-3.
+\]
+Thus strict log-concavity fails for \(2\le s\le6\).
+
+For \(s\ge7\), set \(u=s-7\ge0\). Then
+\[
+\Delta_{s,2}
+=\frac14u^4+5u^3+\frac{139}{4}u^2+93u+60>0.
+\]
+The other initial determinants are positive in their full ranges:
+with \(u=s-1\ge0\),
+\[
+\Delta_{s,1}=u^4+3u^3+7u^2+7u+3>0,
+\]
+and with \(u=s-2\ge0\),
+\[
+\Delta_{s,3}=u^4+\frac92u^3+\frac{33}{2}u^2+19u+5>0.
+\]
+
+For \(4\le k\le2s-1\), set \(a=k-4\ge0\) and \(b=2s-k-1\ge0\). Direct substitution gives
+\begin{align*}
+4\Delta_{s,k}
+={}&2a^2b^2+8a^2b+3a^2+12ab^2+46ab+14a\\
+&+b^4+8b^3+42b^2+98b+47>0.
+\end{align*}
+At the final internal index,
+\[
+\Delta_{s,2s}=3s^2-5s+4.
+\]
+With \(u=s-1\ge0\), this is \(3u^2+u+2>0\). Therefore all internal determinants are strictly positive for \(s\ge7\), proving Theorem~\ref{thm:threshold}.
+
+\section{Strict log-concavity after one factor \texorpdfstring{\((1+x)\)}{(1+x)}}
+Let
+\[
+B_s(x)=(1+x)P_s(x)=\sum_{k=0}^{2s+2}b_{s,k}x^k,
+\qquad
+L_{s,k}=b_{s,k}^2-b_{s,k-1}b_{s,k+1}.
+\]
+For \(s=1\), the coefficients are \((1,3,3,2,1)\), with internal determinants \((6,3,1)\). For \(s=2\), the coefficients are \((3,9,11,10,9,6,2)\), with internal determinants \((48,31,1,21,18)\).
+
+For \(s\ge3\),
+\[
+b_0=\frac{s(s+1)}2,\quad b_1=2s^2+1,\quad b_2=4s^2-4s+3,\quad
+b_3=\frac{13s^2-25s+18}{2}.
+\]
+For \(4\le k\le2s\),
+\[
+b_k=
+\frac{2k^3-8k^2s-9k^2+8ks^2+24ks+21k-12s^2-24s-18}{2},
+\]
+and \(b_{2s+1}=4s-2,\ b_{2s+2}=s\).
+
+At the first four positions set \(u=s-3\ge0\). Then
+\begin{align*}
+L_{s,1}&=2u^4+24u^3+\tfrac{225}2u^2+\tfrac{483}2u+199,\\
+L_{s,2}&=3u^4+29u^3+\tfrac{229}2u^2+\tfrac{433}2u+159,\\
+L_{s,3}&=\tfrac94u^4+\tfrac{33}2u^3+\tfrac{233}4u^2+106u+63,\\
+L_{s,4}&=9u^4+61u^3+207u^2+335u+181.
+\end{align*}
+For \(5\le k\le2s-1\), set \(u=k-5\ge0\) and \(v=2s-k-1\ge0\). Then
+\begin{align*}
+L_{s,k}
+={}&2u^2v^2+10u^2v+7u^2+14uv^2+67uv+\tfrac{83}2u\\
+&+v^4+10v^3+\tfrac{123}2v^2+172v+118>0.
+\end{align*}
+At the final two positions,
+\[
+L_{s,2s}=13(s-3)^2+50(s-3)+64>0,
+\]
+\[
+L_{s,2s+1}=7(s-3)^2+35(s-3)+46>0.
+\]
+The coefficients are nonnegative hook multiplicities and the endpoints are positive; the strict internal inequalities therefore rule out internal zeros.
+
+\section{Strong unimodality and six-cycle insertion}
+The next convolution principle is classical discrete strong unimodality; see \cite{KG}. We include a finite-sequence proof for completeness.
+
+\begin{lemma}[discrete strong unimodality]\label{lem:strong}
+Let \(c\) be a finite nonnegative log-concave sequence with no internal zeros and let \(a\) be a finite nonnegative unimodal sequence. Then \(c*a\) is unimodal.
+\end{lemma}
+\begin{proof}
+Extend both sequences by zero to all integers. Log-concavity and contiguous support imply
+\[
+c_{\ell-i}c_{k-j}\le c_{k-i}c_{\ell-j}\qquad(i<j,\ k<\ell).
+\]
+Let \(d_j=a_j-a_{j-1}\). Since \(a\) is unimodal, all positive terms of \(d\) precede all negative terms. Put
+\[
+P_k=\sum_i d_i^+c_{k-i},\qquad N_k=\sum_j d_j^-c_{k-j}.
+\]
+The forward difference of \(c*a\) at \(k\) is \(P_k-N_k\). Multiplying the displayed inequality by \(d_i^+d_j^-\) and summing gives
+\[
+P_\ell N_k\le P_kN_\ell\qquad(k<\ell).
+\]
+A negative forward difference followed by a positive one would force the opposite strict product inequality. Hence the forward differences change sign at most once.
+\end{proof}
+
+By \eqref{eq:disjoint},
+\[
+M_{\nu\sqcup(6^s)}(x)
+=
+\bigl((1+x)M_{(6^s)}(x)\bigr)M_\nu(x).
+\]
+The first factor is strictly log-concave with no internal zeros, and the second is unimodal by hypothesis; Lemma~\ref{lem:strong} proves Theorem~\ref{thm:insertion}.
+
+\section{Partitions with parts at most six}
+For positive multiplicities,
+\[
+M_{(1^a)}=1,\qquad M_{(2^b)}=x^{2b-1},\qquad M_{(3^c)}=x^{2c-1},
+\]
+\[
+M_{(4^d)}=d\,x^{2d-1}(1+x),
+\]
+and
+\[
+M_{(5^t)}
+=x^{2t-1}
+\left[t+\sum_{j=1}^{2t-1}(2t-j)x^j+x^{2t}\right].
+\]
+The bracket has coefficient sequence
+\[
+t,\ 2t-1,\ 2t-2,\ldots,1,1,
+\]
+which is unimodal.
+
+Let \(\lambda\) contain only part sizes in \(\{1,2,3,4,5\}\), and let \(S\) be the distinct part sizes occurring. Iterating \eqref{eq:disjoint},
+\[
+M_\lambda(x)
+=(1+x)^{|S|-1}\prod_{r\in S}M_{(r^{m_r})}(x).
+\]
+The \(r=1,2,3\) factors are monomials; the \(r=4\) factor is a positive constant times a monomial times \(1+x\); and there is at most one nontrivial unimodal bracket, from \(r=5\). Thus, up to a positive constant and monomial shift, \(M_\lambda\) is either a power of \(1+x\) or the convolution of that log-concave binomial sequence with the single \(r=5\) bracket. Lemma~\ref{lem:strong} gives unimodality. If sixes are present, remove them and apply Theorem~\ref{thm:insertion}; if only sixes remain, apply Theorem~\ref{thm:all-six}.
+
+\section{Computation, discovery, and reproducibility}
+Finite exact computation was used as a discovery and adversarial-audit tool, not as the logical basis of the all-\(s\) statements. Exact determinant scans exposed the transition between \(s=6\) and \(s=7\); the scan was then replaced by the symbolic positive-coefficient certificates above.
+
+The source archive contains two deliberately distinct routes: a closed-form evaluator and an independent exact-integer reconstruction starting from the AHR product \eqref{eq:E6}. A separate symbolic script checks the polynomial identities used in the threshold proof. These programs support reproducibility and error detection; they do not replace the quantified proofs.
+
+\section{Scope and priority boundary}
+The results prove an infinite subfamily of Conjecture 8.1 of \cite{AHR} and determine the strict-log-concavity behavior of the exceptional rectangular family \(r=6\). They do not prove Conjecture 8.1 for arbitrary partitions and do not establish Conjecture 8.2 for the other even values of \(r\).
+
+The \(s=7\) threshold was obtained during the revision audit recorded in the accompanying discovery log. Historical priority for that threshold remains subject to specialist literature review. No claim of journal acceptance or external proof verification is made by the repository.
+
+\begin{thebibliography}{9}
+\bibitem{AHR}
+R.~M. Adin, P. Heged\H{u}s, and Y. Roichman,
+\emph{Higher Lie characters and cyclic descent extension on conjugacy classes},
+Algebraic Combinatorics \textbf{6} (2023), no.~6, 1557--1591.
+\href{https://doi.org/10.5802/alco.323}{doi:10.5802/alco.323}.
+
+\bibitem{KG}
+J. Keilson and H. Gerber,
+\emph{Some results for discrete unimodality},
+Journal of the American Statistical Association \textbf{66} (1971),
+no.~334, 386--389.
+\href{https://doi.org/10.1080/01621459.1971.10482273}{doi:10.1080/01621459.1971.10482273}.
+\end{thebibliography}
+\end{document}
