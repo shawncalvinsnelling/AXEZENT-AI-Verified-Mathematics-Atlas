@@ -17,14 +17,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install pytest
+      - name: Install audit dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pytest
+          python -m pip install pytest sympy
 
       - name: Run tests
         run: |
           PYTHONPATH=. pytest -q
+
+      - name: Run six-cycle symbolic threshold audit
+        run: |
+          PYTHONPATH=. python papers/six-cycle-hook-unimodality-2026/verification/symbolic_threshold_audit.py
 
       - name: Run Atlas audit
         run: |
