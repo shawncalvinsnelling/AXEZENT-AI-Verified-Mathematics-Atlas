@@ -105,9 +105,16 @@ Do not re-deliver to the editor until all of the following are green:
 - [x] independent AHR reproducer added
 - [x] adversarial threshold tests added
 - [x] discovery log added
-- [ ] CI runs v2 tests and symbolic audit
-- [ ] v2 PDF builds cleanly
+- [x] CI runs v2 tests and symbolic audit
+- [x] v2 PDF builds cleanly
 - [ ] complete specialist literature audit
 - [ ] at least one independent human mathematical attack
 - [ ] final author line-by-line proof check
 - [ ] archival DOI/version metadata updated after freeze
+
+
+## K. Automated gate receipts
+
+- Atlas Verification run: SUCCESS on the referee-v2 branch.
+- Six-cycle v2 two-pass LaTeX build: SUCCESS on the referee-v2 branch.
+- These automated passes verify the implemented checks and build reproducibility; they are not substitutes for independent peer review.
