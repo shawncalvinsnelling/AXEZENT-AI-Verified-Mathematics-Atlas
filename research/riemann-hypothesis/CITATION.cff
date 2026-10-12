@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite this module and its exact Git commit; it is not a complete proof of RH."
+title: "AXEZENT RH: Exact finite prime-error certificates and conditional implications"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Snelling
+    given-names: Shawn Calvin
+repository-code: "https://github.com/shawncalvinsnelling/AXEZENT-AI-Verified-Mathematics-Atlas"
+url: "https://github.com/shawncalvinsnelling/AXEZENT-AI-Verified-Mathematics-Atlas/tree/rh-public-review-20261012/research/riemann-hypothesis"
+abstract: "Exact-interval finite-domain Chebyshev-error verification, standard conditional implications to RH, and an explicit unproved all-scale requirement. ChatGPT-assisted preparation."
+keywords:
+  - Riemann Hypothesis
+  - Chebyshev function
+  - exact interval arithmetic
+  - reproducible research
