@@ -10,6 +10,10 @@ Truth-first scoped verification artifacts and public AXEZENT research software.
 
 This atlas organizes finite certificates, exact receipts, tests, truth ledgers, Lean gates, and the public six-cycle hook-unimodality preprint.
 
+### Riemann Hypothesis research — open technical review
+
+[AXEZENT RH certificate research](research/riemann-hypothesis/) provides a mathematical note, reproducible exact-interval verification, and an explicit open-proof ledger. The finite certificate covers every real x in [256, 1048576]; the all-scale RH requirement remains open. This is not a complete RH proof or a Millennium Prize application.
+
 ## Available software
 
 ### Six-Cycle Exact Certifier

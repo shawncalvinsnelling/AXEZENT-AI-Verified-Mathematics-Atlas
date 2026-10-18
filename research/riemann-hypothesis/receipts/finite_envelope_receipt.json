@@ -1,0 +1,42 @@
+{
+  "status": "PASS_EXACT_INTERVAL_FINITE_DOMAIN",
+  "statement": "For every real x in [256, 1048576], abs(psi(x)-x) <= sqrt(x)*log(x)^2/16",
+  "x_min": 256,
+  "x_max": 1048576,
+  "constant": "1/16",
+  "scope": "FINITE_DOMAIN_ALL_REAL_X_NOT_RH",
+  "prime_count_up_to_stop": 82025,
+  "prime_power_events_up_to_stop": 82267,
+  "constant_psi_cells_certified": 82197,
+  "right_endpoint_checked": true,
+  "dyadic_cells_by_floor_log2_left_endpoint": {
+    "8": 47,
+    "9": 81,
+    "10": 142,
+    "11": 264,
+    "12": 474,
+    "13": 883,
+    "14": 1629,
+    "15": 3045,
+    "16": 5735,
+    "17": 10780,
+    "18": 20429,
+    "19": 38688
+  },
+  "rigorous_log_scale": "79228162514264337593543950336",
+  "log_series_terms": 40,
+  "worst_conservative_cell": {
+    "left": 343,
+    "right": 347,
+    "ratio_numerator": "889558555614387130081198081512",
+    "ratio_denominator": "3125321768379993180388683596197",
+    "ratio_approx_for_display_only": 0.2846294306763456
+  },
+  "minimum_cell_margin_scaled": "1972343437039731652206945752980",
+  "right_endpoint_margin_scaled": "962940557680574623456538743397184",
+  "ordered_exact_cell_sha256": "ee5b85b29884d7071c0471f05b38b4f468e7beb36d3ae9efde14fdf0eb09f744",
+  "arithmetic": "Integer intervals; no floats used to accept any inequality",
+  "unproved_extension": "No certificate or theorem covers x beyond x_max",
+  "novelty": "Not claimed",
+  "formal_kernel_verified": false
+}

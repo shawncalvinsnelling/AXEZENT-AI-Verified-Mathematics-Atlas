@@ -1,0 +1,53 @@
+{
+  "version": "0.1.0",
+  "author": "Shawn Calvin Snelling",
+  "rh_proved": false,
+  "formal_kernel_verified": false,
+  "external_peer_review": "NOT_OBTAINED",
+  "novelty": "NOT_CLAIMED",
+  "claims": [
+    {
+      "id": "RH-FINITE-001",
+      "status": "COMPUTER_ASSISTED_FINITE_DOMAIN",
+      "statement": "For every real x in [256,1048576], abs(psi(x)-x) <= sqrt(x)*log(x)^2/16",
+      "evidence": [
+        "MATHEMATICAL_NOTE.md#5-theorem-d-a-finite-domain-all-real-certificate",
+        "certify_finite_envelope.py",
+        "receipts/finite_envelope_receipt.json"
+      ],
+      "extends_beyond_domain": false
+    },
+    {
+      "id": "RH-IMPL-001",
+      "status": "PROVED_CONDITIONAL_IMPLICATION",
+      "statement": "An eventual fixed-degree polynomial envelope on G(u)=exp(-u/2)*(psi(exp(u))-exp(u)) implies RH",
+      "hypothesis_proved": false,
+      "evidence": [
+        "MATHEMATICAL_NOTE.md#2-theorem-a-a-polynomial-normalized-envelope-implies-rh"
+      ]
+    },
+    {
+      "id": "RH-IMPL-002",
+      "status": "PROVED_CONDITIONAL_IMPLICATION",
+      "statement": "A uniform all-real signed dyadic bound plus a bounded base implies a sufficient global envelope",
+      "hypothesis_proved": false,
+      "evidence": [
+        "MATHEMATICAL_NOTE.md#3-theorem-b-exact-dyadic-transfer"
+      ]
+    },
+    {
+      "id": "RH-OBSTRUCTION-001",
+      "status": "PROVED_ELEMENTARY_ROUTE_OBSTRUCTION",
+      "statement": "For integer m>=1, sum_(m<n<=2m)|Lambda(n)-1| >= floor(2m/6)-floor(m/6) >= m/6-1",
+      "evidence": [
+        "MATHEMATICAL_NOTE.md#4-theorem-c-an-elementary-obstruction-to-discarding-signs"
+      ]
+    },
+    {
+      "id": "RH-OPEN-001",
+      "status": "OPEN",
+      "statement": "Establish a sufficient unconditional all-scale bound for the actual prime error",
+      "evidence": []
+    }
+  ]
+}
